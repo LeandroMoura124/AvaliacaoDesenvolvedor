@@ -179,17 +179,17 @@
             // 
             ListImg64.BackgroundColor = SystemColors.WindowFrame;
             ListImg64.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            ListImg64.Location = new Point(6, 213);
+            ListImg64.Location = new Point(6, 6);
             ListImg64.Name = "ListImg64";
             ListImg64.RowTemplate.Height = 25;
-            ListImg64.Size = new Size(677, 189);
+            ListImg64.Size = new Size(677, 205);
             ListImg64.TabIndex = 2;
             // 
             // CarregarJson
             // 
             CarregarJson.BackColor = SystemColors.WindowFrame;
             CarregarJson.ForeColor = Color.OrangeRed;
-            CarregarJson.Location = new Point(381, 83);
+            CarregarJson.Location = new Point(422, 248);
             CarregarJson.Name = "CarregarJson";
             CarregarJson.Size = new Size(109, 60);
             CarregarJson.TabIndex = 1;
@@ -201,7 +201,7 @@
             // 
             button6.BackColor = SystemColors.WindowFrame;
             button6.ForeColor = Color.OrangeRed;
-            button6.Location = new Point(171, 83);
+            button6.Location = new Point(152, 248);
             button6.Name = "button6";
             button6.Size = new Size(112, 60);
             button6.TabIndex = 0;
