@@ -115,11 +115,12 @@ namespace AvaliacaoDesenvolvedor
         {
             if (!string.IsNullOrWhiteSpace(txtCEP.Text))
             {
-                using (var ws = new WSCorreios.AtendeClienteClient())
+                using (var service = new ServiceCorreios.AtendeClienteClient())
                 {
                     try
                     {
-                        var endereco = ws.consultaCEP(txtCEP.Text.Trim());
+                        //criando uma variável para pegar os métodos do consultaCEP
+                        var endereco = service.consultaCEP(txtCEP.Text.Trim());
 
                         listEnd.Items.Clear();
                         //dados do endereço que serão retornados
