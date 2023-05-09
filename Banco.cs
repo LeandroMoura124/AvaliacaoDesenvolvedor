@@ -8,7 +8,7 @@ namespace AvaliacaoDesenvolvedor
 {
     public class Banco
     {
-      
+      // Atributos classe banco
         public string ispb { get; set; }
 
         public string name { get; set; }
