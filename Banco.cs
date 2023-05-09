@@ -19,12 +19,6 @@ namespace AvaliacaoDesenvolvedor
 
 
 
-        //public Banco(string ispb, string name, string code, string fullName)
-        //{
-        //    this.ispb = ispb;
-        //    this.name = name;
-        //    this.code = code;
-        //    this.fullName = fullName;   
-        //}
+        
     }
 }
